@@ -33,7 +33,7 @@ int main() {
 	bool pruefer = true;
 	unsigned int anzahl = 0;					//anzahl der Buchstaben im ausgangswort
 	string name;
-	int switcher;
+	int schalter;
 	//srand(time(0));
 
 	//Vorbereitung des Spiels
@@ -77,8 +77,8 @@ int main() {
 		//loeschzeichenPruefen(loeschzeichen);
 
 		ueberpruefen(loeschzeichen, anzahl, pruefer);
-		SCHALTER(loeschzeichen, switcher);
-		zuordnung(switcher, loeschzeichen);
+		SCHALTER(loeschzeichen, schalter);
+		zuordnung(schalter, loeschzeichen);
 		cout << loeschzeichen << endl;
 
 		if (pruefer == false) {
