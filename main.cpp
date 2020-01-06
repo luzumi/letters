@@ -71,7 +71,7 @@ int main() {
 		int a = eingabe.size();
 		anzahl = a;
 
-		cout << "\nDas wievielte Zeichen willst du nehmen? \n";
+		cout << "\nDas wievielte Zeichen willst du nehmen? \n druecke '0' um das Wort fertigzustellen!\n";
 		benutzereingabe(loeschzeichen);
 		//loeschzeichenPruefen(loeschzeichen);
 
