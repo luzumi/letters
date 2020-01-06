@@ -10,9 +10,9 @@
 using namespace std;
 
 //////////////////////////////////////////////////////////////////////////////////////////
-//zeichenkette erstellen und durch ziehen einzelner buckstaben. ein langes wort erstellen//
+//zeichenkette erstellen und durch ziehen einzelner buckstaben ein langes wort erstellen//
+//																						//
 //////////////////////////////////////////////////////////////////////////////////////////
-
 
 
 
@@ -71,7 +71,7 @@ int main() {
 		int a = eingabe.size();
 		anzahl = a;
 
-		cout << "\nDas wievielte Zeichen willst du nehmen? \n druecke '0' um das Wort fertigzustellen!\n";
+		cout << "\nDas wievielte Zeichen willst du nehmen? \n Druecke '0' um das Wort fertigzustellen!\n";
 		benutzereingabe(loeschzeichen);
 		//loeschzeichenPruefen(loeschzeichen);
 
