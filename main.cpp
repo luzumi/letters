@@ -34,7 +34,7 @@ int main() {
 	unsigned int anzahl = 0;					//anzahl der Buchstaben im ausgangswort
 	string name;
 	int schalter;
-	//srand(time(0));
+	
 
 	//Vorbereitung des Spiels
 	cout << "Buchstaben pfluecken" << endl;
