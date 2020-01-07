@@ -45,12 +45,12 @@ int main() {
 	cout << "Wieviele Buchstaben moechtest du sortieren (max 20)?" << endl;
 
 	benutzereingabe(anzahl);						//ignoriere buchstabeneingaben	
-	//anzahl = 20;
+	
 	vergleichen(anzahl);
 	for (unsigned int i = 0; i < anzahl; i++) {					//abfrage der festgelegten anzahl an Versuchen
 		wortbilden(anzahl, kopie);
 		eingabe.append(1, wortbilden(anzahl, kopie));					//eingabe wird um ein zeichen 'buchstabe' verlängert
-		//eingabe.append(1, kopie);
+		
 		if ((i) % 2) {								//eingabe2 wird um ein zeichen 'buchstabe' verlängert und alle 2 Zeichen ein Seperator '|' eingefügt
 			eingabe.append(1, '|');
 		}
@@ -74,8 +74,7 @@ int main() {
 
 		cout << "\nDas wievielte Zeichen willst du nehmen? \n druecke '0' um das Wort fertigzustellen!\n";
 		benutzereingabe(loeschzeichen);
-		//loeschzeichenPruefen(loeschzeichen);
-
+		
 		ueberpruefen(loeschzeichen, anzahl, pruefer);
 		SCHALTER(loeschzeichen, schalter);
 		zuordnung(schalter, loeschzeichen);
